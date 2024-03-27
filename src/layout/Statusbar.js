@@ -1,6 +1,7 @@
 // Statusbar.js
 import React from 'react';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 function Statusbar() {
   return (
@@ -14,8 +15,8 @@ function Statusbar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
+            <Link className='text-decoration-none text-dark px-4' to="/">Home</Link>
+            <Link className='text-decoration-none text-dark' to="/login">Login</Link>
           </Nav>
             <Button variant="outline-success">Search</Button>
         </Navbar.Collapse>
