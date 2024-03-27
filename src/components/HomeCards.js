@@ -1,9 +1,9 @@
 import React from 'react'
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Container } from "react-bootstrap";
 
-function Cards() {
+function HomeCards() {
   return (
     <div>
         <Card className="mt-3" style={{ width: "18rem", maxHeight: "360px" }}>
@@ -40,4 +40,4 @@ function Cards() {
   )
 }
 
-export default Cards;
+export default HomeCards;

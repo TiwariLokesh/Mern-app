@@ -1,11 +1,13 @@
 import React from "react";
 import Statusbar from "../layout/Statusbar";
-import Cards from '../components/Cards'
+import HomeCards from '../components/HomeCards'
+import Footer from '../layout/Footer'
 function Home() {
   return (
     <>
       <Statusbar />
-      <Cards/>
+      <HomeCards/>
+      <Footer/>
     </>
   );
 }
