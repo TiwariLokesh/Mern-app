@@ -1,0 +1,6 @@
+.car{
+    max-height: 500px;
+}
+.car img{
+    object-fit: contain;
+}
