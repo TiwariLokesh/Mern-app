@@ -35,7 +35,7 @@ function Hero() {
         <img
           className="d-block w-100"
           style={{filter:"brightness(30%)"}}
-          src="https://source.unsplash.com/random/900×700/?Foods"
+          src="https://source.unsplash.com/random/900×700/?Momos"
           alt="Third slide"
         />
         <Carousel.Caption>
